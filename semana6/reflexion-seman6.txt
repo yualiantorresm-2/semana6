@@ -1,0 +1,9 @@
+La recepción de reportes de forma estructurada mediante formatos
+como JSON es fundamental porque permite centralizar y organizar
+el flujo de información de la comunidad en un único servidor.
+Al unificar los datos, se elimina el desorden de recibir alertas
+por canales dispersos, facilitando que el sistema clasifique de
+manera automática cada incidencia según su tipo o gravedad. Esto
+optimiza los tiempos de respuesta de los administradores y agiliza
+la toma de decisiones, logrando una gestión comunitaria mucho más
+eficiente, transparente y coordinada en tiempo real.

@@ -1,0 +1,24 @@
+Al enviar una petición HTTP POST a la ruta 
+http://localhost:3000/registro utilizando 
+Postman o Thunder Client con el objeto JSON 
+de prueba, el servidor Express procesa la 
+solicitud de forma exitosa y devuelve un 
+código de estado 200 OK junto con una 
+respuesta en formato JSON.
+
+Aunque el cliente envía los datos dinámicos 
+{"nombre": "Maria", "mensaje": "Hola comunidad"}, 
+la función res.json() en el archivo server.js 
+maneja una estructura de respuesta estática 
+con valores fijos ("quemados" en el código).
+
+Por esta razón, el servidor devuelve siempre 
+la respuesta fija: 
+{"estado": "Datos recibidos", "nombre": "maria", 
+"mensaje": "Hola servidor"}.
+
+Esta prueba confirma técnicamente que el 
+backend está corriendo correctamente, que el 
+puerto 3000 está activo escuchando peticiones 
+y que el middleware express.json() intercepta 
+y procesa los datos JSON de manera adecuada.

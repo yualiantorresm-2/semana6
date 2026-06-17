@@ -1,0 +1,23 @@
+Ejemplo de un objeto JSON enviado por un ciudadano
+para reportar una problemática en la comunidad.
+
+Ruta de destino: http://localhost:3000/incidencia
+Método HTTP: POST
+
+--------------------------------------------------
+CÓDIGO JSON A ENVIAR:
+--------------------------------------------------
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La lámpara del parque principal
+  no funciona desde hace tres días, dejando la
+  zona completamente a oscuras por las noches."
+}
+--------------------------------------------------
+
+Explicación del flujo:
+Este archivo JSON viaja en el cuerpo de la 
+petición (req.body). El servidor Express lee 
+las propiedades "tipo" y "descripcion" para 
+almacenar el reporte y generar una respuesta 
+de confirmación automática en tiempo real.
